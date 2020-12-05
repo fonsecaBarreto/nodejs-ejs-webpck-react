@@ -1,0 +1,57 @@
+
+
+
+@font-face {
+  font-family: "verdana-bold";
+  src: url("../assets/fonts/verdana-bold.ttf");
+}    
+
+@font-face {
+  font-family: "verdana-light";
+src: url(../assets/fonts/verdana-pro-light.ttf);
+} 
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background-color: red;
+  font-size: 4em;
+  color: #221e3d!important;
+}
+
+.app-container{
+  width: 100%;
+  max-width: 1224px;
+  padding: 0 32px;
+  margin: auto;
+}
+
+.app-container.mx756 {
+  max-width: 756px;
+}
+
+.unselectable {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+@media only screen and (max-width:960px){
+  .app-container{
+    padding: 0 12px;
+  }
+}
+
+.bd-red { border: solid 1px red; }
+.bd-blue { border: solid 2px blue; }
+.bd-green { border: dashed 2px green; }
+.bd-yellow { border: solid 3px yellow; }  
