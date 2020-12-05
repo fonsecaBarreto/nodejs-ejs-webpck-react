@@ -2,7 +2,7 @@ const path = require('path');
 const HtmlPlugin = require("html-webpack-plugin")
 const MiniCssExtractPlugin = require("mini-css-extract-plugin")
 const OptimizeCssPlugin = require("optimize-css-assets-webpack-plugin")
-const TerserPlugin = require('terser-webpack-plugin')
+
 const ASSET_PATH = process.env.ASSET_PATH || '/';
 const NODE_ENV = process.env.NODE_ENV || 'production'
 
@@ -18,7 +18,6 @@ module.exports = {
   optimization:{
     minimizer: [
       new OptimizeCssPlugin(),
-      new TerserPlugin()
     ]
   },
   devServer: {
