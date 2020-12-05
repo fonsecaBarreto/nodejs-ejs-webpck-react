@@ -28,7 +28,7 @@ module.exports = {
   },
 
   entry: {  
-    home: './src/js/home.js',
+    home: './src/js/home',
   },  
   output: {     
     path: path.resolve(__dirname, 'public'),

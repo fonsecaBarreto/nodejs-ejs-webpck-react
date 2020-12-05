@@ -1,0 +1,38 @@
+.button-div{
+  position: absolute;
+  height: fit-content;
+  bottom:-32vh;top:0;right:  0;left: 256px;
+  margin: auto;
+}
+
+#headline-banner{
+  width: 100%;
+  height: 480px;
+  overflow: hidden;
+  background-image: url(../../../../assets/home/headline/stylea-headline-xl.png);
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+}
+
+@media only screen and (max-width: 1024px){
+  #headline-banner{
+    width: 100%;
+    height: 360px;
+ /*   background-image: url(../../../../assets/home/headline/webp/hd-lg.webp); */
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .button-div{ bottom:-24vh;top:0;right:  0;left: 256px; }
+}
+
+@media only screen and (max-width: 756px){
+  #headline-banner{
+    background-image: url(../../../../assets/home/headline/stylea-headline-sm.png); 
+    height: 240px;
+  }
+  .button-div{
+    display: none;
+  }
+}

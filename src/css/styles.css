@@ -19,8 +19,6 @@ src: url(../assets/fonts/verdana-pro-light.ttf);
 }
 
 body {
-  background-color: red;
-  font-size: 4em;
   color: #221e3d!important;
 }
 
@@ -54,4 +52,4 @@ body {
 .bd-red { border: solid 1px red; }
 .bd-blue { border: solid 2px blue; }
 .bd-green { border: dashed 2px green; }
-.bd-yellow { border: solid 3px yellow; }  
+.bd-yellow { border: solid 3px yellow; }   

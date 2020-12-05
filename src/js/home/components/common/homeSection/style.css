@@ -1,0 +1,73 @@
+.home-section{
+  padding: 48px 0 56px;
+
+}
+.home-section-header{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto auto;
+}
+.home-section-header.fr4{
+  grid-template-columns: repeat(4, 1fr);
+}
+.section-content{
+  padding: 48px 0 0;
+}
+
+.section-title{
+  grid-column: span 3;
+  font-family: "verdana-bold", Verdana, Geneva, Tahoma, sans-serif; 
+  text-align: left;
+  margin-bottom: 22px;
+  line-height: 1.1em;
+  font-size: 2.5em;
+  text-shadow: 0px 1px 2px #0005;
+}
+
+.section-title-small{
+  grid-column: span 3;
+  font-family: "verdana-bold", Verdana, Geneva, Tahoma, sans-serif; 
+  text-align: left;
+  line-height: 1.2em;
+  font-size: 1.78em;
+  text-shadow: 0px 1px 2px #0005;
+}
+.section-subtitle{
+  grid-column: span 3;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; 
+  font-family: "verdana-light", Verdana, Geneva, Tahoma, sans-serif; 
+  letter-spacing: .12em;
+  font-weight: 600;
+  text-align: left;line-height: 1.4em; font-size: 1.4em;
+  text-shadow: 0px 1px 2px #0002;
+}
+
+
+@media only screen and (max-width: 960px){
+
+  .home-section-header.fr4{
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .home-section{
+    padding: 28px 0 32px;
+  }
+  .section-content{
+    padding: 26px 0 32px;
+  }
+  .section-title{
+    font-size: 2em;
+    margin-bottom: 18px;
+  }
+  .section-title-small{
+    font-family: "verdana-bold", Verdana, Geneva, Tahoma, sans-serif; 
+    text-align: left;
+    line-height: 1.2em;
+    font-size: 1.35em;
+    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+  }
+  .section-subtitle{
+   
+    font-size: 1.2em;
+    line-height: 1.45em;
+  }
+}
